@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="site-nav">
       <Link to="/" className="brand-logo">
-        Garderobe
+        The Urban Store
       </Link>
 
       <form onSubmit={handleSearch} className="search-form">
