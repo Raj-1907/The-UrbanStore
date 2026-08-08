@@ -1,6 +1,6 @@
 ﻿import React, { useState, useEffect, useContext } from 'react';
-import { CartContext } from '../context/CartContext';
-import ProductCard from '../components/ProductCard';
+import { CartContext } from '../Context/CartContext';
+import ProductCard from '../Components/ProductCard';
 import { Link } from 'react-router-dom';
 
 const Wishlist = () => {
