@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ProductContext } from '../context/ProductContext';
+import { ProductContext } from '../Context/ProductContext';
 
 const CategoryList = () => {
   const { categories, filterByCategory, fetchProducts } = useContext(ProductContext);
