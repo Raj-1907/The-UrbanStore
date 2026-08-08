@@ -2,11 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ProductProvider } from './context/ProductContext';
 import { CartProvider } from './context/CartContext';
-import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import ProductDetails from './pages/ProductDetails';
-import Cart from './pages/Cart';
-import AdminForm from './components/AdminForm';
+import Navbar from './Components/Navbar';
+import Home from './Pages/Home';
+import ProductDetails from './Pages/ProductDetails';
+import Cart from './Pages/Cart';
+import AdminForm from './Components/AdminForm';
 import Wishlist from './Pages/Wishlist';
 
 function App() {
