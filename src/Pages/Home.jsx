@@ -1,7 +1,7 @@
 ﻿import React, { useContext, useState } from 'react';
-import { ProductContext } from '../context/ProductContext';
-import CategoryList from '../components/CategoryList';
-import ProductCard from '../components/ProductCard';
+import { ProductContext } from '../Context/ProductContext';
+import CategoryList from '../Components/CategoryList';
+import ProductCard from '../Components/ProductCard';
 
 const Home = () => {
   const { products, loading, fetchProducts } = useContext(ProductContext);
