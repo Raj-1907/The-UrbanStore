@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { ProductContext } from "../context/ProductContext";
+import { ProductContext } from "../Context/ProductContext";
 
 const AdminForm = () => {
   const { addManualProduct } = useContext(ProductContext);
